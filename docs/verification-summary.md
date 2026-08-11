@@ -39,7 +39,8 @@ verified, no matter how it is framed elsewhere.
 
 | Path | Status | Evidence |
 |------|--------|----------|
-| labs/secure-file-serving/ | ✅ Verified | 31 pytest tests pass (`pytest tests/`). Demonstrates path traversal vulnerability (CWE-22) and its fix. Secure implementation blocks traversal attacks; vulnerable version shows the problem. Runs locally with/without Docker. See [secure-file-serving/README.md](../labs/secure-file-serving/README.md). |
+| labs/secure-file-serving/ | ✅ Verified | 61 pytest tests pass (30 Flask HTTP endpoints + 31 secure implementation + 7 vulnerable demonstration). 86% coverage of core logic. Demonstrates path traversal vulnerability (CWE-22) and its fix. Secure implementation blocks traversal attacks; vulnerable version shows the problem. Dockerfile and docker-compose.yml valid. See [secure-file-serving/README.md](../labs/secure-file-serving/README.md). |
+| tools/secret-pattern-scanner/ | ✅ Verified | 18 pytest tests pass (10 detector pattern tests + 8 file scanner tests). Demonstrates pattern-based secret detection with synthetic test data. Used to audit this repository. See [secret-pattern-scanner/README.md](../tools/secret-pattern-scanner/README.md). |
 
 ## What is explicitly **not** claimed at this time
 

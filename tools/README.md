@@ -58,8 +58,12 @@ At minimum, the tool README covers:
    re-implementation.
 8. **Attribution.** Third-party dependencies of note, with licenses.
 
-## Verification
+## Verified Tools
 
-Verified tools appear in
-[`../docs/verification-summary.md`](../docs/verification-summary.md). At
-the time of the initial commit, no tools have landed.
+The following tools are verified, reproducible, and tested:
+
+| Tool | Tests | Status |
+|------|-------|--------|
+| [secret-pattern-scanner](secret-pattern-scanner/) | 18 passing | ✅ Complete |
+
+Detailed verification appears in [`../docs/verification-summary.md`](../docs/verification-summary.md).
