@@ -1,0 +1,4 @@
+Hello World
+
+This is a sample file used for testing secure file serving.
+It demonstrates how legitimate files should be accessible.

@@ -1,0 +1,13 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security issue (private)
+    url: https://github.com/Nascube/security-research-portfolio/security/advisories/new
+    about: |
+      Please report suspected security issues in this repository privately via
+      GitHub Security Advisories, per SECURITY.md. Do not open a public issue.
+  - name: Read the contribution guide first
+    url: https://github.com/Nascube/security-research-portfolio/blob/main/CONTRIBUTING.md
+    about: What is welcome, what is not, and the PR checklist.
+  - name: Responsible-use boundaries
+    url: https://github.com/Nascube/security-research-portfolio/blob/main/README.md#responsible-use
+    about: What this repository will and will not host.
