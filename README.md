@@ -15,13 +15,14 @@
 2. [What this portfolio is *not*](#what-this-portfolio-is-not)
 3. [Areas of technical interest](#areas-of-technical-interest)
 4. [How projects are organized](#how-projects-are-organized)
-5. [Reproducibility philosophy](#reproducibility-philosophy)
-6. [Research integrity](#research-integrity)
-7. [Attribution policy](#attribution-policy)
-8. [AI-assisted development methodology](#ai-assisted-development-methodology)
-9. [Responsible use](#responsible-use)
-10. [Repository status](#repository-status)
-11. [License](#license)
+5. [Featured work](#featured-work)
+6. [Reproducibility philosophy](#reproducibility-philosophy)
+7. [Research integrity](#research-integrity)
+8. [Attribution policy](#attribution-policy)
+9. [AI-assisted development methodology](#ai-assisted-development-methodology)
+10. [Responsible use](#responsible-use)
+11. [Repository status](#repository-status)
+12. [License](#license)
 
 ---
 
@@ -106,6 +107,15 @@ laid out, what a "finished" entry looks like, and what is explicitly out of
 scope. Individual projects are added over time as their own subdirectories with
 a per-project README, a reproducibility section, and a clear scope statement.
 
+## Featured Work
+
+| Project | Description |
+|---------|-------------|
+| **[labs/secure-file-serving](labs/secure-file-serving/)** | Understanding and preventing path traversal vulnerabilities through hands-on implementation. 61 passing tests demonstrating CWE-22 and its fix. |
+| **[tools/secret-pattern-scanner](tools/secret-pattern-scanner/)** | A utility to detect accidentally committed secrets in configuration files. 18 passing tests verifying pattern matching for API keys, tokens, and passwords. |
+
+See [`docs/verification-summary.md`](docs/verification-summary.md) for full details on each project's verification status.
+
 ## Reproducibility philosophy
 
 Every project in this repository is expected to satisfy a minimum
@@ -143,10 +153,11 @@ The full integrity policy lives in
   repository turns out to be wrong, the correction is added and the change is
   visible in git history.
 
-A running summary of what has actually been verified in this repository lives
-in [`docs/verification-summary.md`](docs/verification-summary.md). At the time
-of the initial commit, that summary is intentionally minimal — it grows as
-real work lands.
+A running inventory of verified work appears in
+[`docs/verification-summary.md`](docs/verification-summary.md). This document
+is updated each time a project is completed and tested; it distinguishes
+between claims backed by verifiable work in this repository and items still
+in progress.
 
 ## Attribution policy
 
